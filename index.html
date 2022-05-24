@@ -1,40 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
   <title>ポートフォリオ練習2</title>
 </head>
 <body>
   <header>
     <div class="header-inner">
-      <img src="./img/logo.png" class="header-logo" alt="TECH I.S.Coworkinig">
-      <a href="#">見学・申し込みはこちらから</a>
+      <div class="header-inner-child1">
+        <img src="./img/logo.png" class="header-logo" alt="TECH I.S.Coworkinig">
+      </div>
+      <div class="header-inner-child2">
+        <a href="#">見学・申し込みはこちらから</a>
+      </div>
     </div>
   </header>
 
   <main>
     <div class="firstView">
-      <img src="./img/fv.png" alt="メイン写真">
-      <h3>松山市駅から徒歩5分<br><b>誰でも使えるコワーキング<br>10:00~22:00</b> <br>当日のみの利用も月額利用もできます。</h2>
+      <img src="./img/fv.png" class="first-pic" alt="メイン写真">
+      <h3>
+        <p class="first-vtext">松山市駅から徒歩5分</p>
+        <p class="first-vmain">誰でも使える<br>コワーキング</p>
+        <p class="first-vmain" id="time">10:00~22:00</p>
+        <p class="first-vtext2">当日のみの利用も月額利用もできます。</p>
+      </h3>
     </div>
 
     <div class="main-area">
-      <div class="main-title">
-        <b>誰でも使えるコワーキングで未来を作ろう</b>
-      </div>
+      <div class="main-content">
+        <div class="main-item">
+          <div class="item-area">
+            <p>誰でも使えるコワーキングで未来を作ろう
+            <br>テックアイエスコワーキングは松山市駅から徒歩5分で松山の<br>
+            中心、銀天街にあるコワーキングスペースです。愛媛で事業を<br>
+            される方や起業される方の活動拠点となることで新たなイノベ<br>
+            ーションの起点となる空間を目指します。
     
-      <div class="main-text">
-        <p class="text-bottom">テックアイエスコワーキングは松山市駅から徒歩５分で松山の<br>
-          中心、銀天街にあるコワーキングスペースです。愛媛で事業を<br>
-          される方や起業される方の活動拠点となることで新たなイノベ<br>
-          ーションの起点となる空間を目指します。</p>
-    
-        <p>あなたも愛媛の中心地でイノベーションを起こしませんか？</p>
-    
-        <img src="./img/about.png" alt="イスの写真">
-    
+            <br>あなたも愛媛の中心地でイノベーションを起こしませんか？
+          </p>
+            <img src="./img/about.png" alt="イスの写真">
+          </div>
+        </div>
         <div class="facility">
           <h4 class="tech-color">Facility</h4>
           <h2 class="bold">テックアイエスコワーキング 愛媛県</h2>
@@ -50,41 +61,45 @@
         </div>
     
         <div id="figure">
-          <img src="./img/space.png" alt="案内図">
+          <img src="./img/space.png" id="figure-pic" alt="案内図">
         </div>
     
         <div class="feature">
           <h4 class="tech-color">Fature</h4>
           <h2 class="bold">各スペースの紹介</h2>
           <ul>
-            <li class="pic-list"><img src="./img/open.png" alt="オープンスペース"><br>オープンスペース1F
-              <p class="pic-list-text">来客の方や利用者の方とリラックスして打合せすることができるスペースです。</p>
+            <li class="pic-list"><img src="./img/open.png" class="feature-pic" alt="オープンスペース"><br>オープンスペース1F
+              <p class="pic-list-text">来客の方や利用者の方とリラックスして<br>打合せすることができるスペースです。</p>
             </li>
-            <li class="pic-list"><img src="./img/main.png" alt="自主スペース"><br>自主スペース1F/2F
-              <p class="pic-list-text">フリードリンク（アイス/ホット）でコーヒーを飲みながら、集中して作業することができるスペースです。</p>
+            <li class="pic-list"><img src="./img/main.png" class="feature-pic" alt="自主スペース"><br>自主スペース1F/2F
+              <p class="pic-list-text">フリードリンク（アイス/ホット）でコ<br>ーヒーを飲みながら、集中して作業する<br>ことができるスペースです。</p>
             </li>
-            <li class="pic-list" id="pic-list-bottom"><img src="./img/door.png" alt="オンラインルーム"><br>オンラインルーム2F
-              <p class="pic-list-text">誰にも見られない空間で、集中してテレワークすることができるスペースです。</p>
+            <li class="pic-list" id="pic-list-bottom"><img class="feature-pic" src="./img/door.png"
+                alt="オンラインルーム"><br>オンラインルーム2F
+              <p class="pic-list-text">誰にも見られない空間で、集中してテレ<br>ワークすることができるスペースです。</p>
             </li>
           </ul>
-          <small>※会議室、イベントスペースの時間貸しもありますので、お問い合わせ下さい。</small>
-    
-          <div class="box">
-            <p>見学申し込みはこちら</p>
+          <div class="small">
+            ※会議室、イベントスペースの時間貸しもありますので、お問い合わせ下さい。
+          </div>
+        </div>
+          <div id="link-box">
+            <a href="#" id="link-button">見学申し込みはこちら</a>
           </div>
     
           <div class="flow">
+            <h4 class="tech-color">Flow</h4>
             <h2>お申し込みの流れ</h2>
             <ul>
-              <li>
+              <li class="flow-item">
                 <h3 class="flow-list">月額会員</h3>
-                <p>ご利用に関する案内などのため、原則店頭で対面申込みとさせていた<br>だきます。
+                <p class="flow-text">ご利用に関する案内などのため、原則店頭で対面申込みとさせていた<br>だきます。
                   申込みは、オンラインで行います。（株式会社メタップス<br>ペイメントが提供する「会費ペイ」というサービスを使用していま<br>す。）
                   まずはHPフォームからお問い合わせください。2営業日以内に<br>お返事いたします。</p>
               </li>
-              <li>
+              <li class="flow-item">
                 <h3 class="flow-list">単発利用(ドロップイン)</h3>
-                <p>利用したい日にお越しください。 氏名・電話番号・利用<br>時間をお伺いし、利用料金をお支払いいただきます。
+                <p class="flow-text">利用したい日にお越しください。 氏名・電話番号・利用<br>時間をお伺いし、利用料金をお支払いいただきます。
                   そ<br>の際に、出入りするためのカードをお渡しいたします。<br>お帰りの際は、ポストにご返却いただくだけで簡単に退<br>出可能です。
                 </p>
               </li>
@@ -93,7 +108,7 @@
     
           <div class="price">
             <h4 class="tech-color">Price</h4>
-            <h3>料金(税金)</h3>
+            <h3 id="price-tax">料金(税金)</h3>
             <table>
               <tr>
                 <td class="bgcolor">月額会員</td>
@@ -116,12 +131,12 @@
                 </td>
               </tr>
             </table>
-            <small>
-              ※月額会員の申し込みは、入会金としてICカード1枚につき3,300円（税込）の事務手数料が発生します。<br>
+            <div id="small">
+              <p>※月額会員の申し込みは、入会金としてICカード1枚につき3,300円（税込）の事務手数料が発生します。<br>
                 ※オンラインルームは、月額会員さまの利用希望が多いため、単発利用（ドロップイン）でのご利用はできません。<br>
                 ※法人契約をご希望の方は、見学申し込みからお問い合わせください。
-              
-            </small>
+              </p>
+              </div>
           </div>
     
           <div class="map">
@@ -132,7 +147,7 @@
           </div>
         </div>
       </div>
-    </div>
+    
   </main>
   <footer>
     COPYRIGHT©︎techis All rights reserved.
