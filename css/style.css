@@ -103,14 +103,32 @@
 
 h3{/* margin: auto; */text-align: center;/* background-color: turquoise; */color: white;width: 35%;line-height: 2rem;font-size: 30px;}
 
-table{margin: auto;/* margin-left: auto; *//* margin-right: auto; */}
+table{margin: auto;/* margin-left: auto; *//* margin-right: auto; *//* border-collapse: collapse; */}
 
 
 
-tbody{border: 1px solid white;}
+tbody{border: 1px solid black;}
 
 .bgcolor{background-color: darkgray;width: 400px;color: white;text-align: center;font-size: smaller;font-weight: bold;}
 
 #small{text-align: center;}
 
 #small p {display: inline-block;text-align: left;font-size: x-small;}
+
+#table2{}
+
+.table-list2{background-color: darkgray;}
+
+/* map */
+
+.map{margin-top: 6rem;}
+
+#address{margin: auto;color: black;font-family: monospace;padding-top: 5px;}
+
+#place{text-align: center;margin-top: 4rem;}
+
+#map-img{margin-right: auto;width: 600px;margin-left: auto;margin-top: 2rem;}
+
+/* footer */
+
+footer{text-align: center;background-image: url(../img/footer.png);height: 157px;color: white;}
