@@ -9,27 +9,34 @@
   <title>ポートフォリオ練習2</title>
 </head>
 <body>
-  <header>
-    <div class="header-inner">
-      <div class="header-inner-child1">
-        <img src="./img/logo.png" class="header-logo" alt="TECH I.S.Coworkinig">
-      </div>
-      <div class="header-inner-child2">
-        <a href="#">見学・申し込みはこちらから</a>
-      </div>
+  
+  <header class="header">
+    <div class="logo">
+        <h1><img src="img/logo.png" alt="ロゴ画像"></h1>
     </div>
-  </header>
+    <ul class="menu">
+        <li class="menu-item"><a href="https://forms.gle/dKHLvPUtbcNNEAfR6">見学・申し込みはこちらから</a></li>
+    </ul>
+</header>
 
   <main>
-    <div class="firstView">
-      <img src="./img/fv.png" class="first-pic" alt="メイン写真">
-      <h3>
-        <p class="first-vtext">松山市駅から徒歩5分</p>
-        <p class="first-vmain">誰でも使える<br>コワーキング</p>
-        <p class="first-vmain" id="time">10:00~22:00</p>
-        <p class="first-vtext2">当日のみの利用も月額利用もできます。</p>
-      </h3>
+    <div class="front-ig">
+      <a href="https://www.instagram.com/tech.i.s.coworking/"><img src="img/logo_ig.png" alt="Instagram_ロゴ画像"></a>
+  </div>
+  <section class="front-fv">
+    <picture class="front-fv__img">
+        <source srcset="img/mobile-fv.png" alt="トップ画像" media="(max-width: 800px)">
+        <img src="img/fv.png" alt="トップ画像">
+    </picture>
+    <div class="front-fv__desc">
+        <div class="front-fv__desc-detail">
+            <span class="front-fv__subtitle">松山市駅から徒歩5分</span>
+            <h2 class="front-fv__maintitle">誰でも使える<br>コワーキング</h2>
+            <time class="front-fv__time">10:00~22:00</time>
+            <small class="front-fv__text">当日のみの利用も月額利用もできます。</small>
+        </div>
     </div>
+</section>
 
     <div class="main-area">
       <div class="main-content">
