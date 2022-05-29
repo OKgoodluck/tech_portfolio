@@ -8,7 +8,7 @@
 /* ヘッダー */
 
 
-.header{display: flex; align-items: center; justify-content: space-between; height: 70px; padding-left: 30px; background: #ffF; position: fixed; top: 0; left: 0; right: 0; z-index: 1;}
+.header{display: flex;align-items: center;justify-content: space-between;height: 70px;padding-left: 30px;background: #ffF;position: fixed;top: 0;left: 0;right: 0;z-index: 1;}
 
 .logo {width: 230px;}
 
@@ -109,9 +109,9 @@ li{list-style: none;}
 
 /* figure */
 
-#figure{background-color: powderblue;margin-top: 2rem;}
+#figure{background-color: powderblue;margin-top: 2rem;text-align: center;}
 
-#figure-pic{margin: auto;}
+#figure-pic{}
 
 /* feature */
 
@@ -154,17 +154,32 @@ li{list-style: none;}
 
 /* price */
 
-.price{background-color: aliceblue;}
+.front-price__table{
+    width: 100%;
+    border-collapse: collapse;
+}
 
-#price-tax{text-align: center;color: black;width: 100%;font-family: monospace;margin: 10px;}
+.front-price__table th{
+    width: 50%;
+    background: #303030;
+    color: #fff;
+    border: solid 0.5px;
+}
 
-h3{/* margin: auto; */text-align: center;/* background-color: turquoise; */color: white;width: 35%;line-height: 2rem;font-size: 30px;}
+.front-price__table td{
+    width: 50%;
+    font-size: 15px;
+    border: solid 0.5px;
+    border-color: #dee2e6;
+    padding: 15px 0;
+}
 
-table{margin: auto;/* margin-left: auto; *//* margin-right: auto; *//* border-collapse: collapse; */}
+.front-price__desc p{
+    font-size: 10px;
+}
 
 
-
-tbody{border: 1px solid black;}
+tbody{}
 
 .bgcolor{background-color: darkgray;width: 400px;color: white;text-align: center;font-size: smaller;font-weight: bold;}
 
@@ -176,9 +191,28 @@ tbody{border: 1px solid black;}
 
 .table-list2{background-color: darkgray;}
 
+
+.common-btn{
+    margin-top: 80px;
+}
+
+.common-btn a{
+    text-decoration: none;
+    color: white;
+    background: #303030;
+    display: block;
+    width: 212px;
+    height: 53px;
+    text-align: center;
+    margin: auto;
+    line-height: 50px;
+    font-size: small;
+}
+
+
 /* map */
 
-.map{margin-top: 6rem;}
+.map{margin-top: 6rem;text-align: center;}
 
 #address{margin: auto;color: black;font-family: monospace;padding-top: 5px;}
 
